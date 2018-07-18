@@ -1,7 +1,7 @@
 {
-  "name": "restify-router-config",
+  "name": "express-router-config",
   "version": "0.3.4",
-  "description": "The laziest way to route your restify app.",
+  "description": "The laziest way to route your express app.",
   "main": "dist/index.min.js",
   "types": "dist/src/router.d.ts",
   "scripts": {
@@ -11,7 +11,7 @@
     "build": "npm run clean && npm run rollup"
   },
   "keywords": [
-    "restify",
+    "express",
     "router",
     "config",
     "react",
@@ -35,7 +35,7 @@
     "@types/chai": "^4.1.3",
     "@types/mocha": "^5.2.0",
     "@types/node": "^10.1.0",
-    "@types/restify": "^7.2.0",
+    "@types/express": "^7.2.0",
     "chai": "^4.1.2",
     "mocha": "^5.1.1",
     "nyc": "^11.8.0",

@@ -1,7 +1,7 @@
 import { sortRoutes } from './sorts'
 
 /**
- * normalize our endpoint, make sure it doesn't 
+ * normalize our endpoint, make sure it doesn't
  * end with slash.
  * @param  {string} endpoint endpoint to be normalized
  * @returns normalized endpoint
@@ -48,7 +48,7 @@ function routeTranslator(route : any, middleware ?: any, prefix ?: any) {
 
 /**
  * Properly map middlewares regardless if it's array or not
- * @param middlewares 
+ * @param middlewares
  * @return Array
  */
 function mapMiddleware(middlewares) {
@@ -81,7 +81,7 @@ function appendPrefix(route, prefix = false) {
 
 /**
  * Group middleware according to it's position
- * @param middlewares 
+ * @param middlewares
  * @return Array
  */
 function groupMiddleware (middlewares: Array<any>) {
@@ -117,9 +117,9 @@ function isValidArray(data: string | Array<any>) {
 }
 
 /**
- * takes a restify server as an argument, returns a function
+ * takes an express server as an argument, returns a function
  * that takes an array of object.
- * @param {Server} server restify server
+ * @param {Server} server express server
  * @param {boolean} verbose log routing
  * @returns routing function
  */
