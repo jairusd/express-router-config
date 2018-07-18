@@ -136,4 +136,4 @@ it would also use `anotherMiddleware` middleware.
 
 ## Credits
 
-credits to @yakovmeister for the original idea
+credits to [@yakovmeister](https://github.com/yakovmeister) for the original idea
